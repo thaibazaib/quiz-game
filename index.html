@@ -7,30 +7,37 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/style.css">
 <title>Quiz Game</title>
 </head>
-<body>
+<body class="text-center">
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand logo">tz</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-           <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                 <a class="nav-link nav-text" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                 <a class="nav-link nav-text" href="#">Scoreboard</a>
-              </li>
-           </ul>
+   </nav>
     <!--Navbar End-->
+    <!--Instruction and Play button section-->
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <main role="main" class="inner cover">
+         <h1>Global Quiz</h1>
+        <p class="lead">This is a quiz to test your knowledge on different countries. This is a multiple choice quiz, once you press play, the questions will generate. If the choice you've clicked is correct, it will show green, if incorrect then the choice you have clicked on will go red.</p>
+        <p class="lead">
+         <p class="lead">Press the Play button to start!</p>
+          <button class="btn btn-lg btn-secondary" id="play">Play</button>
+        </p>
+      </main>
     
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+      <footer class="mastfoot mt-auto">
+         <div class="text-center">
+            <p>COPYRIGHT 2022. THAIBA ZAIB.
+               ALL RIGHTS RESERVED.</p>
+         </div>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 </html>
