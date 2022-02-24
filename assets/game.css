@@ -29,3 +29,32 @@
     padding: 25px;
     width: 100%;
 }
+
+/* Display */
+
+/*#display {
+    display: flex;
+    justify-content: space-between;
+}*/
+
+.display-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+.display-text {
+    text-align: center;
+}
+#progress-bar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid #9acd32;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progress-full {
+    height: 100%;
+    background: #9acd32;
+    width: 0%;
+}
