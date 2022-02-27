@@ -93,17 +93,17 @@ let questions = [
     }
     ]
 
-const scorePoints = 100
+const scorePoints = 10
 const maxQuestions = 10
 
-startGame = () => {
+function startGame() {
     questionCounter = 0
     score = 0
     availableQuestions = [...questions]
     getNewQuestion()
 }
 
-getNewQuestion = () => {
+function getNewQuestion() {
     if(availableQuestions.length === 0 || questionCounter > maxQuestions) {
         localStorage.setItem('mostRecentScore', score)
 
@@ -158,3 +158,4 @@ incrementScore = num => {
 }
 
 startGame()
+
