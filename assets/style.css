@@ -25,3 +25,7 @@ body {
 h1 {
     font-size: 4.5rem;
 }
+
+.header-items {
+   padding-left: 50px;
+}
