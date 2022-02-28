@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
 body {
-    background-color: rgb(29, 26, 26);
+    background-color: #006400;
     padding: 0;
     margin: 0;
     color: white;
@@ -28,4 +28,30 @@ h1 {
 
 .header-items {
    padding-left: 50px;
+}
+
+/*title*/
+
+#title {
+    padding-bottom: 60px;
+}
+
+.lead {
+    padding: 5px;
+}
+
+/*footer*/
+
+footer {
+    background-color: #cabfc7;
+    position: fixed;
+    padding-top: 30px;
+    bottom: 0;
+    width: 100vw;
+}
+
+#play {
+    background-color: azure;
+    border-color: azure;
+    color: black;
 }
